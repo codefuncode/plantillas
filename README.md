@@ -5,7 +5,7 @@ Repositorio contiene una colección de Plantillas bajo Licencias Creative Common
 Este repositorio se actualizara en el futuro e incorporara los enlaces correspondientes a las paginas oficiales. 
 
 
-HTML5 UP https://html5up.net/
+https://html5up.net/
 
 https://www.free-css.com/template-categories/control-panel
 
