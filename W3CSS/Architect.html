@@ -40,7 +40,7 @@
               BR
             </b>
           </span>
-          <span class="w3-hide-small w3-text-light-grey">
+          <span class="w3-hide-small w3-text-light-grey"  style="background-color: blue;">
             Architects
           </span>
         </h1>
@@ -239,6 +239,30 @@
         </a>
       </p>
     </footer>
-    <script type="text/javascript" src="js/imagen.js"></script>
+    <script type="text/javascript" >
+
+var img = document.getElementsByTagName('img'),
+    fondo = document.querySelectorAll(".bgimg");
+
+for (var i = 0; i < img.length; i++) {
+    img[i].src = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.sotech-asia.com%2Fblog%2Fwp-content%2Fuploads%2F2017%2F06%2FArchitects.jpg&f=1&nofb=1";
+}
+
+for (var i = 0; i < fondo.length; i++) {
+    fondo[i].style.backgroundImage =
+        "url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.sotech-asia.com%2Fblog%2Fwp-content%2Fuploads%2F2017%2F06%2FArchitects.jpg&f=1&nofb=1')";
+}
+
+var x, i, l;
+x = document.getElementsByTagName("*");
+l = x.length;
+console.log(l);
+for (i = 0; i < l; i++) {
+    console.log(x[i].tagName);
+
+}
+
+      // https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.sotech-asia.com%2Fblog%2Fwp-content%2Fuploads%2F2017%2F06%2FArchitects.jpg&f=1&nofb=1
+    </script>
   </body>
 </html>

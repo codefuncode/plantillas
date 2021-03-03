@@ -18,14 +18,3 @@ for (i = 0; i < l; i++) {
     console.log(x[i].tagName);
 
 }
-
-// (function() {
-//     "use strict";
-//     /* Start of your code */
-//     function greetMe(yourName) {
-//         alert('Hello ' + yourName);
-//     }
-
-//     greetMe('Carlos');
-//     /* End of your code */
-// })();
