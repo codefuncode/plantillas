@@ -1,0 +1,30 @@
+     /* Remove the navbar's default margin-bottom and rounded borders */
+
+     .navbar {
+         margin-bottom: 0;
+         border-radius: 0;
+     }
+     /* Add a gray background color and some padding to the footer */
+
+     footer {
+         background-color: #f2f2f2;
+         padding: 25px;
+     }
+     .col-md-3 img {
+         height: 200px !important;
+     }
+     .col-md-3 {
+         padding-top: 15px !important;
+     }
+     .container-fluid {
+         padding-bottom: 30px !important;
+         padding-left: 30px !important;
+         padding-right: 30px !important;
+     }
+     .navbar .container-fluid {
+         padding-bottom: 0px !important;
+     }
+     footer {
+         background-color: #101010;
+         color: #fff;
+     }
